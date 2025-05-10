@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/anubh/IdeaProjects/JenkinsDemo/src/test/java/DemoTest/DemoTestClass.java">
+        <classes>
+            <class name="DemoTest.DemoTestClass"></class>
+        </classes>
+    </test>
+</suite>
