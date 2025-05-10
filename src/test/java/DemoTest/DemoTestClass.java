@@ -1,11 +1,11 @@
 package DemoTest;
 
 import DemoLogin.Login;
-import junit.framework.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -35,7 +35,7 @@ public class DemoTestClass {
                 submit();
         String product=cd.findElement(By.xpath("//span[@class= 'title']")).getText();
         System.out.println(product);
-        Assert.assertEquals("Login failed","Products",product );
+        Assert.assertEquals("Products",product,"Login failed" );
     }
 
 }
